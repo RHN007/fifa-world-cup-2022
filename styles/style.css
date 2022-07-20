@@ -9,12 +9,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-button{
-    background-color: #DD0000;
-    width: 187px;
-    height: 56px;
-    border-radius: 5px;
-}
+
 
 .container{
     width: 1321px;
@@ -23,10 +18,6 @@ button{
 
 button a{
     text-decoration: none;
-    color: WHITE;
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center;
 }
 
 /* Top Banner Styles  */
@@ -56,3 +47,91 @@ button a{
 .banner-img img{
     width: 100%;
 }
+.banner-btn{
+    background-color: #DD0000;
+    width: 187px;
+    height: 56px;
+    border-radius: 10px; 
+    
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+ .banner-btn a {
+    color: WHITE;
+}
+
+/* Blog Section Styles  */
+.blogs{
+    display: flex;
+    
+
+}
+
+.matches{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,29,94,1) 100%, rgba(0,212,255,1) 100%);
+    /* background-color: rgba(2,0,36,1); */
+    width: 30%;
+    height: 312px;
+    border-radius: 10px;
+    margin-right: 20px;
+    
+}
+.navigation{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 10px;
+}
+
+.navigation button {
+    color: #161616;
+    width: 252px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.navigation a {
+    color: #161616;
+}
+
+.blog-btn{
+    background-color: #DD0000;  
+}
+.blog-btn a {
+    color: white;
+}
+
+
+
+
+/* Each Blogs  */
+.blog-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+   
+}
+
+.blog{
+    border:1px solid lightgray; 
+    border-radius: 20px;
+  
+    
+}
+.blog-img img{
+   width: 100%;
+}
+.blog-details{
+    margin-left: 20px;
+}
+.icon {
+    display: flex;
+    justify-content: space-evenly
+}
+
+/* Footer Section  */
