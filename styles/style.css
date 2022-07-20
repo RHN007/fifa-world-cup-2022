@@ -47,12 +47,12 @@ button a {
 }
 
 .banner-img img {
-    transition: width 4s;
-    transition-timing-function: ease-in;
+    transition: width 10s ease 1s, height 10s, transform 1s;
 }
 
 .banner-img img:hover {
     width: 400px;
+    transform: rotate(360deg);
 }
 
 .banner-btn {
@@ -297,6 +297,21 @@ h4 {
 
     .container {
         width: 100%;
+    }
+    .banner-title {
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .banner-description {
+        font-weight: 400;
+        font-size: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap
+    }
+    .banner-description:hover{
+         overflow: visible;
+         
     }
 
     .top-banner {
