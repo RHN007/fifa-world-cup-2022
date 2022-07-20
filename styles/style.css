@@ -71,8 +71,6 @@ button a{
 /* Blog Section Styles  */
 .blogs{
     display: flex;
-    
-
 }
 
 .matches{
@@ -208,7 +206,23 @@ font-size: 16px;
 line-height: 20px;
 color: #4D4D4D;
 }
+/* View All Button  */
+#view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
 
+.view-all{
+    width: 131px;
+    height: 47px;
+    background: #DD0000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    display: none;
+
+}
 
 /* Footer Section  */
 footer{
@@ -253,18 +267,46 @@ h4{
 
 /* Media Query  */
 
-
+/* Mobile Screen  */
 @media only screen and  (max-width:688px){
+    body{
+        width: 100%;
+    }
     .container{
         width: 100%;
     }
-    .players, .blogs , .courses{
-         grid-template-columns: repeat(1,1fr);
-    }
-    .player, .blogs{
+    .top-banner{
         flex-direction: column;
     }
-   
+
+    .matches{
+        background: none;
+    }
+    .blogs{
+        display: block;
+        margin: 0 auto;
+        
+    }
+    .navigation{
+         align-items: normal;
+    }
+    
+
+    .blog-container, .schedules{
+         grid-template-columns: repeat(1,1fr);
+    }
+    
+    .footer-items{
+        flex-direction: column
+    }
+    .social-icons{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .fa-brands{
+        margin-top: 20px;
+    }
 }
 
 /* Tablet Devices  */
@@ -273,7 +315,38 @@ h4{
     .container{
         width: 100%;
     }
-    .players, .blogs , .courses{
+    .blogs{
+        display:inline-block;
+        margin: 0 auto;
+        
+    }
+    .matches{
+        background: none;
+        height: 150px;
+    }
+   
+
+    .navigation{
+        flex-direction: row; 
+        
+    }
+    .navigation button{
+        margin: 30%;
+        width: 230px;
+        height: 64px;
+       
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        /* padding: 30px; */
+        
+    }
+    .blog-container, .schedules{
         grid-template-columns: repeat(2,1fr);
    }
+   .view-all{
+    display: block;
+   }
+   .footer-items{
+    flex-wrap: wrap;
+}
 }
