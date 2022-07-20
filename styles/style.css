@@ -165,6 +165,50 @@ button a{
     display: flex;
     justify-content: space-evenly
 }
+/* Shedule Styles  */
+.schedules{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:24px;
+    text-align: center;
+
+}
+.schedule{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    width: 312px;
+    height: 242px;
+    padding: 10px;
+}
+
+
+.flags{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flags img{
+    width: 93.04px;
+    height: 54.42px;
+}
+
+.flags h6{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.country h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+.date h5{
+    font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #4D4D4D;
+}
+
 
 /* Footer Section  */
 footer{
@@ -172,8 +216,6 @@ footer{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,29,94,1) 100%, rgba(0,212,255,1) 100%);
     text-align: center;
     border-radius: 20px;
-
-
 }
 
 .footer-title{
