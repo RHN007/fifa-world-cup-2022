@@ -45,20 +45,27 @@ button a{
 }
 
 .banner-img img{
-    width: 100%;
+    transition: width 4s;
+    transition-timing-function: ease-in;
+}
+.banner-img img:hover{
+    width: 400px;
 }
 .banner-btn{
     background-color: #DD0000;
     width: 187px;
     height: 56px;
-    border-radius: 10px; 
-    
+    border-radius: 10px;   
     font-weight: 400;
     font-size: 20px;
     text-align: center;
 }
  .banner-btn a {
     color: WHITE;
+}
+.banner-btn:hover{
+    background-color: deepskyblue;
+    
 }
 
 /* Blog Section Styles  */
