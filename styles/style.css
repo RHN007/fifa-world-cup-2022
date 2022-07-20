@@ -5,14 +5,14 @@
 /* common Styles */
 body{
     margin: 0 auto ; 
-    width: 1420px;
+    max-width: 1420px;
     font-family: 'Poppins', sans-serif;
 }
 
 
 
 .container{
-    width: 1321px;
+    max-width: 1321px;
     margin-top: 40px;
 }
 
