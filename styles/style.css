@@ -135,3 +135,40 @@ button a{
 }
 
 /* Footer Section  */
+footer{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,29,94,1) 100%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    border-radius: 20px;
+
+
+}
+
+.footer-title{
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+h4{
+    color:#B9B9B9;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 30px;
+    
+}
+
+.footer-items{
+    display: flex;
+    justify-content: center; 
+   
+}
+
+.footer-details{
+    padding: 40px;
+}
+
+.fa-brands{
+    color: white;
+    margin-left: 30px;
+    font-size: 30px;
+}
